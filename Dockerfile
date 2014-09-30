@@ -6,4 +6,6 @@ RUN echo 'export PATH="/root/.rbenv/bin:$PATH"' > /etc/profile.d/rbenv-path-setu
 RUN echo 'eval "$(rbenv init -)"' >> /etc/profile.d/rbenv-path-setup.sh
 RUN /bin/bash --login -c 'rbenv install 2.1.3'
 
+ENV HOME /root
+
 CMD ["/bin/bash","--login"]
