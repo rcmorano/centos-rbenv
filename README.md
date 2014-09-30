@@ -17,7 +17,7 @@ git clone https://github.com/rcmorano/centos-rbenv.git
 docker build -t rcmorano/centos-rbenv:latest centos-rbenv/
 ```
 
-You'll get a ruby-head-able interactive container for messing up with some gemsets:
+You'll get a ruby-stable-able interactive container for messing up with some gemsets:
 
 ```
 docker run -t -i rcmorano/centos-rbenv
